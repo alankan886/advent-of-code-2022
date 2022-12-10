@@ -30,7 +30,7 @@ def second_part(calories):
 
 
 def main():
-    with open('inputs.txt') as f:
+    with open('input.txt') as f:
         calories = f.readlines()
         print(first_part(calories))
         print(second_part(calories))
